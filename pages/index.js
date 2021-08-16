@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <title>Dev Blog</title>
       </Head>
+      <h2>Hello</h2>
     </div>
   );
 }
