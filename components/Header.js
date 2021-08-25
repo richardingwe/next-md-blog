@@ -1,14 +1,13 @@
-import Link from 'next/link';
-const Header = () => {
-    return (
-        <header>
-            <div className="container">
-                <Link href='/'>
-                    <h2>DEV BLOG</h2>
-                </Link>
-            </div>
-        </header>
-    );
-};
+import Link from 'next/link'
 
-export default Header;
+export default function Header() {
+  return (
+    <header>
+      <div className='container'>
+        <Link href='/' passHref>
+          <h2>Dev Blog</h2>
+        </Link>
+      </div>
+    </header>
+  )
+}
